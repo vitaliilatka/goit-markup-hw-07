@@ -298,47 +298,47 @@
         </main>
         <!--Footer-->
         <footer class="footer">
-            <div class="container flex">
+            <div class="container flex flex--baseline">
                 <div class="footer-address">
-                    <a class="link footer-logo" href="./index.html">
-                        <span class="current">Web</span>Studio
+                    <a class="link logo logo--white" href="./index.html">
+                        <span class="logo--accent">Web</span>Studio
                     </a>
                     <address class="footer-contacts">
-                        <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
-                        <a class="link" href="mailto:info@example.com">
+                        <p class="footer-contacts__text">г. Киев, пр-т Леси Украинки, 26</p>
+                        <a class="link footer-contacts__link" href="mailto:info@example.com">
                         info@example.com
                         </a>
                         <br />
-                        <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <a class="link footer-contacts__link" href="tel:+380991111111">+38 099 111 11 11</a>
                     </address>
                 </div>
                 <div class="footer-networks">
-                    <strong class="text">присоединяйтесь</strong>
+                    <strong class="footer-networks__text">присоединяйтесь</strong>
                     <ul class="list flex network-list">
-                        <li class="item">
-                            <a href="#" class="link" aria-label="Instagram">
-                                <svg class="icon">
+                        <li class="network-list__item">
+                            <a href="#" class="link network-list__link network-list__link--dark" aria-label="Instagram">
+                                <svg class="network-list__icon">
                                     <use href="./images/svg/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="#" class="link" aria-label="Twitter">
-                                <svg class="icon">
+                        <li class="network-list__item">
+                            <a href="#" class="link network-list__link network-list__link--dark" aria-label="Twitter">
+                                <svg class="network-list__icon">
                                     <use href="./images/svg/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="#" class="link" aria-label="Facebook">
-                                <svg class="icon">
+                        <li class="network-list__item">
+                            <a href="#" class="link network-list__link network-list__link--dark" aria-label="Facebook">
+                                <svg class="network-list__icon">
                                     <use href="./images/svg/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="#" class="link" aria-label="Linkedin">
-                                <svg class="icon">
+                        <li class="network-list__item">
+                            <a href="#" class="link network-list__link network-list__link--dark" aria-label="Linkedin">
+                                <svg class="network-list__icon">
                                     <use href="./images/svg/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -346,17 +346,20 @@
                     </ul>
                 </div>
                 <form class="flex footer-subscribe" autocomplete="off">
-                    <div class="form-field">
-                        <label class="text" for="footer-email">Подпишитесь на рассылку</label>
+                    <label class="footer-subscribe__label">Подпишитесь на рассылку
                         <input
                             type="email"
                             name="e-mail"
-                            class="subscribe-input"
-                            id="footer-email"
+                            class="footer-subscribe__input"
                             placeholder="E-mail"
                         />
-                    </div>
-                    <button type="submit" class="button primary">Подписаться</button>
+                    </label>
+                    <button type="submit" class="button-primary button-primary--flex">
+                        Подписаться
+                        <svg class="footer-subscribe__icon" width="24" height="24">
+                            <use href="./images/svg/sprite.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
         </footer>        
