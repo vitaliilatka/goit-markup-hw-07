@@ -306,8 +306,8 @@ svg {
 
 .container {
   width: 1200px;
-  margin: 0px auto;
-  padding: 0px 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .flex {
